@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: gray;
+    background-image:url("image/pexels-jorge-jesus-614117.jpg");
+    background-position: fixed;
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+
+}
+header > h1{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bolder;
+}
+
+header > p{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* button {
+    font-size: 1.2em;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+} */
+.button:hover {
+    background-color: lightgray;
+    color: black;
+}
+.button button {
+    padding: 20px 20px;
+}
+#content {
+    height: 220px;
+    background-color: lightgray;
+}
+#content h1 {
+    padding-top: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+#content p {
+    font-size: 1.2em;
+    column-count: 2;
+    /* text-align: center; */
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    }
+#content1 {
+    height: 530px;
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    padding-left: 200px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.day h3 {
+    padding-top: 40px;
+}
+.day p {
+    padding-top: 30px;
+    height: 500px;
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    margin: 10px;
+    /* font-weight: bold; */
+}
+.day img {
+    height: 200px;
+    width: 280px;
+}
+section.day {
+    width: 280px;
+    height: 500px;
+    margin-right: 20px;
+    background-color: white;
+    color: black;
+}
+section.day h3 {
+    text-align: center;
+}
+.day1 {
+    height: 200px;
+    font-size: 1.2em;
+    /* font-weight: bolder; */
+    padding-top: 50px;
+    /* line-height: 1.4e; */
+}
+.day1 h3,p {
+    text-align: center;
+}
+.day1 p {
+    margin-top: 40px;
+}
+#move {
+    height:300px;
+    display: flex;
+}
+.day2 {
+    background-color: blue;
+    width: 1900px;
+    padding: 20px;
+}
+.day3 {
+    background-color: rgb(46, 45, 45);
+    padding: 20px;
+}
+.day2 h2, .day3 h2 {
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+.day2 p, .day3 p{
+    margin-top: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.4em;
+}
+footer {
+    height:70px;
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-top: 45px;
+}
+.day4 {
+    width: 1900px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.day5 {
+    width: 1900px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+}
